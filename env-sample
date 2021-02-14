@@ -1,0 +1,3 @@
+source env/bin/activate
+export SECRET_KEY='random-string'
+export DEBUG=True # or False in production
