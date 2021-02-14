@@ -1,3 +1,8 @@
 source env/bin/activate
 export SECRET_KEY='random-string'
 export DEBUG=True # or False in production
+export DB_NAME=school
+export DB_USER=name-of-user
+export DB_PASSWORD=''
+export DB_HOST=localhost # or your current production host
+export DB_PORT=5432 # default port for PostgreSQL
